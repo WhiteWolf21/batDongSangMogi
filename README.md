@@ -1,13 +1,13 @@
 Bất Động Sản --- Mogi
 ============================================
 
-Introduction
+Giới Thiệu
 ----------
 
 Đây là nơi mọi người cùng chia sẻ công cụ để phục vụ cho dự án chính.
 
-Details
+Thông Tin Chi Tiết
 ----------
 
-Participants
+Người Tham Gia
 ----------
