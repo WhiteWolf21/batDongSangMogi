@@ -279,6 +279,9 @@ re_datetime = r"(\d{1,2})\/(\d{1,2})\/(\d{1,2}),\s(\d{1,2}):(\d{1,2})\s(AM|PM)"
 def get_datetime(datetime_str):
     result = findall(re_datetime, datetime_str)
     if result[0][5] == "AM":
-        return datetime(int(result[0][2]), int(result[0][0]), int(result[0][1]), int(result[0][3]), int(result[0][4])).isoformat()
+        return datetime(int(result[0][2]) + 2000, int(result[0][0]), int(result[0][1]), int(result[0][3]), int(result[0][4])).isoformat()
     else:
-        return datetime(int(result[0][2]), int(result[0][0]), int(result[0][1]), int(result[0][3]) + 12, int(result[0][4])).isoformat()
+        hour = int(result[0][3])
+        if hour != 12:
+            hour += 12
+        return datetime(int(result[0][2]) + 2000, int(result[0][0]), int(result[0][1]), hour, int(result[0][4])).isoformat()

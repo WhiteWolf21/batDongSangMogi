@@ -1,11 +1,10 @@
 # The Holy
-### v1.3
+### v1.3.1
 
 #### Created by
 *Mai Pham*
-
 *Tommy*
-
+*Huy Duc*
 
 ### 1. Prerequsite
  - use `python 3`
@@ -25,3 +24,8 @@ In parent directory **The Holy** run:
 
 ### 4. Unfinished features
  - Not back up crawled data to database: suggesting MongoDB
+
+ ----------------------------------------------------------------------------------------------------
+## CHANGELOG
+##### v1.3.1
+ - Fix datetime error as `12 PM` or `12 AM`
