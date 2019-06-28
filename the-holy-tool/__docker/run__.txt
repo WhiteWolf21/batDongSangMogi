@@ -1,0 +1,6 @@
+docker run -it --net=host --ipc=host -v "/home/tommy/Projects/Atomic/The_Holy tool":/my-data -e DISPLAY -v /tmp/.X11-unix facebook_crawler bash
+
+docker run -it --net=host --ipc=host -e DISPLAY -v /tmp/.X11-unix facebook_crawler bash
+
+apt install xauth
+pip3 install pymongo selenium requests timeout_decorator

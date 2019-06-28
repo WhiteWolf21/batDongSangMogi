@@ -120,6 +120,10 @@ def crawl_comm(signin_driver, links):
         # except NoSuchElementException:
         #     pass
 
+
+
+
+
         # assign post content for post
         # there are in fact 3 cases of post content:
         #   - plain text enclosed in                    <p></p>
@@ -128,38 +132,129 @@ def crawl_comm(signin_driver, links):
 
         # the first case of post content
         post_content = signin_driver.find_elements_by_tag_name('p')
+        print("1st scenario")
         tmp = ''
         for element in post_content:
-            tmp += element.text
+            tmp += element.text + " "
+
+        price = ""
+        location = ""
+        try:
+            price = signin_driver.find_element_by_xpath("//div[@class='_l57']").get_attribute("innerHTML")
+        except NoSuchElementException:
+            pass
+        try:
+            location = signin_driver.find_element_by_xpath("//div[@class='_l58']").get_attribute("innerHTML")
+        except NoSuchElementException:
+            pass
+
+        tmp = tmp + " " + price + " " + location
+        
+        # this is a special case, which post content in embedded in div[@class="_2cuy _3dgx _2vxa"]
+        # rather than in <p>
+        try:
+            class_2_content = signin_driver.find_elements_by_xpath("//div[@class='_2cuy _3dgx _2vxa']")
+            print("Len: ", len(class_2_content))
+            for content in class_2_content:
+                tmp = tmp + " " + content.text
+        except NoSuchElementException:
+            pass
+
+
 
         # the second case of post content
-        if tmp == '':
+        # in this case, there are 2 possible scenarios
+        if tmp == '  ':
+            print("2nd scenario")
             # tmp = signin_driver.find_element_by_class_name("_4a6n _a5_").text
             # tmp = signin_driver.find_element_by_class_name("_4a6n").text
             try:
+                # first scenario, content is embedded in span[@class='_4a6n _a5_']
                 tmp = signin_driver.find_element_by_xpath("//span[@class='_4a6n _a5_']").get_attribute('innerHTML')
             except NoSuchElementException:
-                pass
+                try:
+                    # first scenario, content is embedded in pan[@class='_7df8']/span[2]
+                    # example: https://facebook.com/groups/mogivietnam/permalink/2328058160563227
+
+                    # first, must click on "See more..." if it exists
+                    try:
+                        a_tag = signin_driver.find_element_by_xpath("//a[@class='_6tw8']")
+                        a_tag.click()
+                    except NoSuchElementException:
+                        pass
+                    
+                    tmp = signin_driver.find_element_by_xpath("//span[@class='_7df8']").text
+                except NoSuchElementException:
+                    pass
+                    
 
         # the third case of post content
-        if tmp == '' and is_share is True:
-            post_info.set_is_share(True)
-            # if the post is sharing antoher post, take shared post's post content as the sharing one's content
-            link_share = signin_driver.find_element_by_xpath("//span[@class='fcg']/a").get_attribute('href')
+        if tmp == '  ' and is_share is True:
+            print("3rd scenario")
+            # if the post is sharing another post, take shared post's post content as the sharing one's content
+            
+            try:
+                link_share = signin_driver.find_element_by_xpath("//span[@class='fcg']/a").get_attribute('href')
+            except NoSuchElementException:
+                # if this post is sharing another post but cannot detect that shared post, then ifnore this post and move to next link
+                continue
+            
+            if len(findall(r"facebook.com", link_share)) == 0:
+                link_share = "https://www.facebook.com/" + link_share
             # get that shared post's link and crawl its content
             signin_driver.get(link_share)
+            sleep(2)
             post_content = signin_driver.find_elements_by_tag_name('p')
             tmp = ''
             for element in post_content:
-                tmp += element.text
+                tmp += element.text + " "
 
+
+            # this is a special case, which post content in embedded in div[@class="_2cuy _3dgx _2vxa"]
+            # rather than in <p>
+            try:
+                class_2_content = signin_driver.find_elements_by_class_name("_2cuy _3dgx _2vxa")
+                for content in class_2_content:
+                    tmp = tmp + " " + content.text
+            except NoSuchElementException:
+                pass
+
+
+            price = ""
+            location = ""
+            try:
+                price = signin_driver.find_element_by_xpath("//div[@class='_l57']").get_attribute("innerHTML")
+            except NoSuchElementException:
+                pass
+            try:
+                location = signin_driver.find_element_by_xpath("//div[@class='_l58']").get_attribute("innerHTML")
+            except NoSuchElementException:
+                pass
+
+            tmp = tmp + " " + price + " " + location
             # back to the sharing post
             signin_driver.get(link)
 
         
+
+
         # if reaches this far and tmp == '', we can ignore this post
         if tmp == '':
             continue
+
+        # try to extract price and location specified by user
+        price = ""
+        location = ""
+        try:
+            price = signin_driver.find_element_by_xpath("//div[@class='_l57']").get_attribute("innerHTML")
+        except NoSuchElementException:
+            pass
+        try:
+            location = signin_driver.find_element_by_xpath("//div[@class='_l58']").get_attribute("innerHTML")
+        except NoSuchElementException:
+            pass
+
+        tmp = tmp + " " + price + " " + location
 
         print("Content: ", tmp)
 
@@ -168,6 +263,10 @@ def crawl_comm(signin_driver, links):
         print("nShare = ", post_info.get_post_share_num())
 
         post_info.set_post_content(tmp)
+
+
+
+
         
         # Show all comments and replies
         while True:
@@ -178,6 +277,11 @@ def crawl_comm(signin_driver, links):
             except NoSuchElementException:
                 break
         
+
+
+
+
+
         # assign comment for post
         #comments = signin_driver.find_elements_by_class_name('_72vr')
         comments_replies = signin_driver.find_elements_by_xpath("//div[@aria-label='Comment' or @aria-label='Comment reply']")        

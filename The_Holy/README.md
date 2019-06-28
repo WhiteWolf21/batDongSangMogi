@@ -2,9 +2,10 @@
 ### v1.3.1
 
 #### Created by
-*Mai Pham*
-*Tommy*
-*Huy Duc*
+ - *Mai Pham*
+ - *Tommy*
+ - *Huy Duc*
+ - *The whole team Real Estate - OISP*
 
 ### 1. Prerequsite
  - use `python 3`
@@ -27,5 +28,7 @@ In parent directory **The Holy** run:
 
  ----------------------------------------------------------------------------------------------------
 ## CHANGELOG
+##### v1.4
+ - Enhance the crawling post content mechanism
 ##### v1.3.1
  - Fix datetime error as `12 PM` or `12 AM`
