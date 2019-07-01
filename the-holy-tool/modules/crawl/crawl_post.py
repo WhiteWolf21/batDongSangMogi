@@ -5,7 +5,9 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import TimeoutException
 from time import sleep
 from datetime import datetime
-from pymongo import MongoClient
+from selenium.webdriver.common.keys import Keys
+import os
+from urllib.request import urlopen
 
 import settings
 from modules.PostInfo import PostInfo
@@ -13,11 +15,12 @@ from modules.miscellaneous import random_time
 from modules.miscellaneous import check_isLock
 
 re_group_member  = r"member_id="                        # regex string to find whether the post's owner is group member
-re_post_owner_id = r"member_id=(\d+)"                   # regex string to find the id of post's owner
+re_post_owner_id = r"group_id=(\d+)"                   # regex string to find the id of post's owner
 
 re_group_post_id = r"groups\/(.+)\/permalink\/(.+)\/"   #regex string to find the group name and post id
 
 re_comm_user_id  = r"id=(.+)"
+re_img_id = r"[A-Z0-9]+\b"
 
 
 def crawl_post(signin_driver, links):
@@ -91,36 +94,6 @@ def crawl_post(signin_driver, links):
 
 
 
-
-        # # user_ajax = signin_driver.find_element_by_tag_name('h5').find_element_by_tag_name('a').get_attribute('ajaxify')
-        # n_reset_link = 0
-        # while True:
-        #     try:
-        #         user_ajax = signin_driver.find_element_by_xpath("//h5//a[1]").get_attribute("ajaxify")
-        #         print("user: ", user_ajax)
-        #         break
-        #     except NoSuchElementException:
-        #         if n_reset_link == 3:
-        #             # if refresh the page 3 times and still error, then move to next link
-        #             break
-        #         else:
-        #             # refresh the page
-        #             n_reset_link += 1
-        #             signin_driver.refresh()
-
-        #             # check whether the account is locked
-        #             if check_isLock(signin_driver) is False:
-        #                 return None
-
-        # # if refresh page 3 times, move to next link
-        # if n_reset_link == 3:
-        #     continue
-
-
-        # if len(findall(re_group_member, user_ajax)) == 0:
-        #     # the user is not group member
-        #     continue
-
         # check if this post is sharing another post which is not available
         try:
             signin_driver.find_element_by_xpath("//div[@class='mbs _6m6 _2cnj _5s6c']").text
@@ -165,6 +138,42 @@ def crawl_post(signin_driver, links):
         post_info.set_info("post_id", tmp[1])
         post_info.set_info("crawled_date", datetime.now().isoformat())
         post_info.set_info("post_owner_id", findall(re_post_owner_id, user_ajax)[0])
+
+
+        # download images if exists
+        try:
+            element = signin_driver.find_element_by_xpath("//a[@rel='theater' and @class='_5dec _xcx']")
+            element.click()
+
+            first_img_id = ""
+            
+            img_folder = "images/" + post_info.get_info("post_id")
+            os.mkdir(img_folder)
+
+            for i in  range(20):
+                print(i)
+                sleep(5)
+                tmp = signin_driver.find_element_by_class_name('spotlight')
+                img_src = tmp.get_attribute("src")
+                img_id = findall(re_img_id, img_src)
+                if first_img_id == "":
+                    first_img_id = img_id
+                else:
+                    if img_id == first_img_id:
+                        break
+
+
+                image = urlopen(img_src)
+                
+                f = open( img_folder + '/' + str(i) + ".jpg", 'wb' )
+                f.write( image.read() )
+                f.close()
+
+
+                element.send_keys(Keys.ARROW_RIGHT)
+        except NoSuchElementException:
+            # if no image exists, continue the task
+            pass
 
 
 
@@ -223,8 +232,7 @@ def crawl_post(signin_driver, links):
         # this is a special case, which post content in embedded in div[@class="_2cuy _3dgx _2vxa"]
         # rather than in <p>
         try:
-            class_2_content = signin_driver.find_elements_by_xpath("//div[@class='_2cuy _3dgx _2vxa']")
-            print("Len: ", len(class_2_content))
+            class_2_content = signin_driver.find_elements_by_xpath("//div[@class='_2cuy _3dgx _2vxa']")            
             for content in class_2_content:
                 tmp = tmp + " " + content.text
         except NoSuchElementException:
@@ -311,6 +319,7 @@ def crawl_post(signin_driver, links):
             continue
 
         # try to extract price and location specified by user
+        # some posts the owner has already specified the price and the location of the real estate
         price = ""
         location = ""
         try:
@@ -351,7 +360,7 @@ def crawl_post(signin_driver, links):
         #comments = signin_driver.find_elements_by_class_name('_72vr')
         comments_replies = signin_driver.find_elements_by_xpath("//div[@aria-label='Comment' or @aria-label='Comment reply']")        
       
-        is_live_stream = False
+
         if len(comments_replies) > 0:
             # if post has comment(s)           
             
@@ -440,10 +449,6 @@ def crawl_post(signin_driver, links):
                     })
 
             
-
-
-
-
 
 
         # append to posts_info        

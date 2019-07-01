@@ -19,7 +19,7 @@ def back_up(posts_info):
             file.write("score        : " + str(post.get_info("score")) + "\n")
             file.write("post_comments: " + "\n")
             for comment in post.get_post_comments():
-                file.write("    ------------")
+                file.write("    ------------" + "\n")
                 file.write("    comment_owner_id: "+ comment['comment_owner_id']+ "\n")
                 file.write("    comment_content : "+ comment['comment_content']+ "\n")
                 file.write("    comment_tags    : "+ str(comment['comment_tags']) + "\n")
