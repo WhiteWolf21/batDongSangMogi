@@ -1,463 +1,909 @@
 *********************************************
 group_id     : mogivietnam
-post_id      : 2337127016323008
-post_owner_id: 100004766355466
-post_content : Các bạn sĩ tử cố lên nhé, nhớ ôn thì bài kỹ!
-Chúc các bạn làm bài tốt và vượt qua kỳ thi :)))     
-date_crawl   : 2019-06-28T16:18:27.346250
-date_post    : 2019-06-24T13:06:00
-no. comments : 16
-no. reactions: 84
-no. shares   : 0
-score        : 100
-post_comments: 
-    ------------    comment_owner_id: 100001656152314&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : nhiều ngày qua cũng theo dõi bn "Sĩ ..Tử" này. Cũng chả còn châm biếm hay cười khi xem clip chế đoạn gào thét.
-    comment_tags    : []
-    comment_replies : 
-    ------------    comment_owner_id: 1176906896&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : Bằng cử nhân Luật của em ý chắc mua quá
-    comment_tags    : []
-    comment_replies : 
-    ------------    comment_owner_id: 100033203873918&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : ai mà thấy quen quen :v
-    comment_tags    : []
-    comment_replies : 
-    ------------    comment_owner_id: 100024672631812&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : A côg an ỡ sau ngồi cười kìa😂
-    comment_tags    : []
-    comment_replies : 
-    ------------    comment_owner_id: 100028334077962&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : Giờ là lúc vừa lý thuyết vừa thực hành.
-    comment_tags    : []
-    comment_replies : 
-    ------------    comment_owner_id: 100027510339561&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : Vượt ngục phiên bản Alibaba
-    comment_tags    : []
-    comment_replies : 
-    ------------    comment_owner_id: 100024525352174&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : tôi dám chắc , ko ai có thể hoàn hảo đc cả. Kể cả bạn. Vậy thế cho lên đừng quá cay nghiệt với đời.xin lỗi nếu tui làm bạn ko hài lòng. Nếu bạn đọc những gì tui viết mà thấy ko thích thì thôi. Cũng ko cần phải đáp lại tui làm chi. Chẳng qua chúng ta cũng chỉ ngồi trước bàn phím thôi mà. Có chi đâu mà phải gay gắt hơn thua
-    comment_tags    : ['100008053578726']
-    comment_replies : 
-    ------------    comment_owner_id: 100003965382385&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : Ngu mà dốt nát trở thành kẻ phá hoại
-    comment_tags    : []
-    comment_replies : 
-    ------------    comment_owner_id: 100028885691523&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : Giờ mới đọc là còn cứu được 😂😂😂
-    comment_tags    : []
-    comment_replies : 
-    ------------    comment_owner_id: 100036938090398&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : tại....xui thôi 😂😂😂😂
-    comment_tags    : ['100010078920827']
-    comment_replies : 
-*********************************************
-group_id     : mogivietnam
-post_id      : 2344653465570363
-post_owner_id: 100005745879588
-post_content : 1% Hoa Hồng a/c bán giúp em miếng đất 10x43, 200m thổ cư. Mặt tiền Hương Lộ 2 Phước Vĩnh An. Củ chi 6 tỷ còn thương lượng. <br> P/s: Hình em để dưới cmt. Cảm ơn mấy a/c.  
-date_crawl   : 2019-06-28T16:18:40.440861
-date_post    : 2019-06-28T15:45:00
-no. comments : 8
-no. reactions: 2
-no. shares   : 0
-score        : 10
-post_comments: 
-    ------------    comment_owner_id: 100005745879588&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : 
-    comment_tags    : []
-    comment_replies : 
-    ------------    comment_owner_id: 100005745879588&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : 
-    comment_tags    : []
-    comment_replies : 
-    ------------    comment_owner_id: 100005745879588&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : dạ check ib giúp em
-    comment_tags    : ['100031608111873']
-    comment_replies : 
-*********************************************
-group_id     : mogivietnam
-post_id      : 2344673482235028
-post_owner_id: 100034120571149
-post_content : Em tiếp tục live giới thiệu về Đất Bình Dương Giá Rẻ nhé anh chị😍🤗
-Liên hệ 0339211502 Gặp Trung     
-date_crawl   : 2019-06-28T16:18:56.743262
-date_post    : 2019-06-28T16:05:00
+post_id      : 2353127501389626
+post_owner_id: 100030107536821
+post_content : data khách hàng jamila khang điền quận 9 bạn nào cần inbox mình     
+date_crawl   : 2019-07-03T14:33:08.522355
+date_post    : 2019-07-03T12:48:00
 no. comments : 0
-no. reactions: 0
-no. shares   : 0
-score        : 0
-post_comments: 
-*********************************************
-group_id     : mogivietnam
-post_id      : 2344631765572533
-post_owner_id: 100036090815568
-post_content : BẤT ĐỘNG SẢN VINGRAND CENTER ĐANG CHIÊU MỘ 5 ANH TÀI CHUYÊN BÁN BĐS NHÀ PHỐ QUẬN 10 & QUẬN TÂN BÌNH ☑️ Mức hoa hồng khởi điểm: >55% (thỏa thuận) ☑️ Được đào tạo bài bản miễn phí ☑️ Có cơ hội du lịch và khám phá trong nước và nước ngoài. ☑️ Được làm việc với những người có tầm và có tiền, có tri thức, có cơ hội kiếm thu nhập 50- 300 triệu/ tháng hoặc nhiều hơn nữa. ☑️Ưu tiên tuổi trẻ, thích thử sức, thích sáng tạo, trong khoảng 20-40 tuổi, không cần kinh nghiệm và tuổi đời. ☑️Yêu cầu: có xe máy Ứng tuyển liên hệ: 0909.02.37.02 _Ms. Duyên hoặc gửi CV vào gmail: tuyendung.vingrandcenter@gmail.com Nộp hồ sơ trực tiếp tại: 🏣 Địa chỉ 1: P.308, tầng 3 - tòa nhà Hoàng Anh Safomec, số 7/1 Thành Thái, Phường 14, Quận 10. 🏣 Địa chỉ 2: P.4A , tầng 4 - tòa nhà Building CT-IN , số 435 Hoàng Văn Thụ , phường 4 , Quận Tân Bình     
-date_crawl   : 2019-06-28T16:19:06.328456
-date_post    : 2019-06-28T15:24:00
-no. comments : 1
-no. reactions: 2
+no. reactions: 3
 no. shares   : 0
 score        : 3
 post_comments: 
 *********************************************
 group_id     : mogivietnam
-post_id      : 2344516105584099
-post_owner_id: 100021186799492
-post_content : Cần mua đất giáp mặt biển khu vực thị trấn Lagi.
-P/s: Không phải đất dự án nhé. Tài chính tầm 5-10 tỉ đổ lên.
-Cảm ơn cả nhà     
-date_crawl   : 2019-06-28T16:19:20.370698
-date_post    : 2019-06-28T13:33:00
-no. comments : 13
-no. reactions: 12
+post_id      : 2351463508222692
+post_owner_id: 100023608852041
+post_content : Mọi người lại bảo không đúng đi ạ :( [AGENT LIFE]
+Nghề môi giới bất động sản giàu lắm, làm một tháng bằng người ta làm cả năm, đi tiếp khách vip nên toàn mặc đồ sang trọng, vô chung cư cao cấp người ta thuộc tên đối đãi mình như vua, mỗi lần gửi tiền về quê cả trăm triệu, đó là theo lời mấy bà hàng xóm nói thế.
+Còn thực tế như thế nào, mời mọi người xem hình sẽ rõ.
+----------------------
+Housing Solution By Technology
+🏢Head Office: 9th floor, 37 Ky Con, Nguyen Thai Binh Ward, Dist. 1, HCMC
+💻 www.hoozing.com
+📞 +84 899 909 79     
+date_crawl   : 2019-07-03T14:33:15.415957
+date_post    : 2019-07-02T13:37:00
+no. comments : 0
+no. reactions: 29
 no. shares   : 0
-score        : 25
+score        : 29
 post_comments: 
-    ------------    comment_owner_id: 100037167305354&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : 3 mẫu giáp biển xã tân thắng lagi hàm tân
-    comment_tags    : []
-    comment_replies : 
-    ------------    comment_owner_id: 100036007236586&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : Đất nền Nhơn Trạch đầu tư giá rẻ 0338818305
-    comment_tags    : []
-    comment_replies : 
-    ------------    comment_owner_id: 100021186799492&extragetparams={"directed_target_id": "812814125420979"}
+*********************************************
+group_id     : mogivietnam
+post_id      : 2352903321412044
+post_owner_id: 100012599924959
+post_content : 😍😍😍 SOMERSET FELIZ LỰA CHỌN TỐT CHO KHÁCH HÀNG ĐẦU TƯ 😍😍😍:
+- Chủ đầu tư uy tín CapitaLand.
+- Cam kết thuê 7%/ năm trong 5 năm.
+- Tặng nội thất theo tiêu chuẩn somerset ( ~ 1 tỷ).
+- Nằm gần các cơ quan hành chính Q.2, siêu thị, trường học và bệnh viện.
+- Dự án đã cất nóc.
+- Hơn 100 tiện ích cho cư dân.
+LH: 0937090823 hoặc inbox để được tư vấn th     
+date_crawl   : 2019-07-03T14:33:23.980696
+date_post    : 2019-07-03T09:23:00
+no. comments : 3
+no. reactions: 0
+no. shares   : 0
+score        : 3
+post_comments: 
+    ------------    comment_owner_id: 100012599924959&extragetparams={"directed_target_id": "812814125420979"}
     comment_content : .
     comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100021186799492&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : .
-    comment_tags    : []
-    comment_replies : 
-    ------------    comment_owner_id: 100021186799492&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : .
-    comment_tags    : []
-    comment_replies : 
-    ------------    comment_owner_id: 100021186799492&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : .
-    comment_tags    : []
-    comment_replies : 
-    ------------    comment_owner_id: 100029577082630&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : .
-    comment_tags    : []
-    comment_replies : 
-    ------------    comment_owner_id: 100026646610125&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : Anh chị quan tâm thị trường Shophouse thì join group trao đổi khách với em nhé!
-    comment_tags    : ['2381075115500864']
-    comment_replies : 
-    ------------    comment_owner_id: 100004429383235&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : Em có đất nền thương mại cách Lagi 25km, cách biển 200m. Gần cảng cá, bến du thuyền....
-    comment_tags    : []
-    comment_replies : 
-    ------------    comment_owner_id: 100021186799492&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : .
-    comment_tags    : []
-    comment_replies : 
-    ------------    comment_owner_id: 100021186799492&extragetparams={"directed_target_id": "812814125420979"}
+    ------------    comment_owner_id: 100012599924959&extragetparams={"directed_target_id": "812814125420979"}
     comment_content : .
     comment_tags    : []
     comment_replies : 
 *********************************************
 group_id     : mogivietnam
-post_id      : 2344592122243164
-post_owner_id: 100033267885006
-post_content : Đất nền bình chánh sổ hồng riêng
-0963.687.625     
-date_crawl   : 2019-06-28T16:20:13.622666
-date_post    : 2019-06-28T14:44:00
-no. comments : 21
-no. reactions: 16
+post_id      : 2352956208073422
+post_owner_id: 100000895181471
+post_content : 💥💥 Hàng thơm phải nhanh!! Bán nhà hẻm xe hơi Lê Thúc Hoạch q. Tân Phú
+🏡 DT: 4x10 xây dựng đủ
+_ Nhà đẹp 1 trệt 1 lầu
+_ Hẻm xe hơi 5m thông. Vị trí đẹp kế bên trường học Lê Anh Xuân, Ủy ban phường Phú Thọ Hòa... Khu dân trí cao
+💵 Giá: 2 tỷ 9 tl chính chủ     
+date_crawl   : 2019-07-03T14:33:32.106612
+date_post    : 2019-07-03T10:07:00
+no. comments : 3
+no. reactions: 2
 no. shares   : 0
-score        : 37
+score        : 5
 post_comments: 
-*********************************************
-group_id     : mogivietnam
-post_id      : 2334270023275374
-post_owner_id: 100000912534751
-post_content : Hãy cho em tôi 1 quyển luật, em tôi sẽ cân cả cái thế giới này. Sắp tới đây nhà nước mình sẽ dành cho e rất nhiều thời gian để nghiên cứu luật và phân lô bán nền. Người ta nói vấp ngã mới thành công nhưng cũng có những vấp ngã khó mà gượng dậy được e ah     
-date_crawl   : 2019-06-28T16:20:26.315189
-date_post    : 2019-06-22T23:05:00
-no. comments : 88
-no. reactions: 72
-no. shares   : 0
-score        : 160
-post_comments: 
-    ------------    comment_owner_id: 100001850028695&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : chị là PN em ơi huhu
-    comment_tags    : ['100003931740851']
-    comment_replies : 
-    ------------    comment_owner_id: 100000912534751&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : thời buổi 4.0 mà, ai cũng có thể làm luật sư online mà bác
-    comment_tags    : ['100001182281301']
-    comment_replies : 
-    ------------    comment_owner_id: 100016016921620&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : Sẽ còn nhiều thời gian cho em đọc và kiểm chứng. T
-    comment_tags    : []
-    comment_replies : 
-    ------------    comment_owner_id: 100004766621685&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : Luật đây
-    comment_tags    : []
-    comment_replies : 
-    ------------    comment_owner_id: 100011310163261&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : Đọc và hiểu rồi tới vận dụng là cả một quá trình.
-    comment_tags    : []
-    comment_replies : 
-    ------------    comment_owner_id: 100004136504909&extragetparams={"directed_target_id": "812814125420979"}
+    ------------    comment_owner_id: 100000895181471&extragetparams={"directed_target_id": "812814125420979"}
     comment_content : 
     comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100024595070078&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : Hihi. T năng nĩ.. nguyên dòng họ vô táp. Ngứa địt thật..qua t cho ăn bã nè. ₫it t có gì đâu ăn.
+    ------------    comment_owner_id: 100031651774087&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Cho mình xin thọ tin xem nhà..
     comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100027749022408&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : Dung co nong voi cac ban oi . Su viec rum beng the nay co noi hay k thi e trinh cung k thoat. Moi viec deu co mo rong dieu tra. Ket qua dieu tra the nao co may chu cong an lo. Ai cung co cai ly cua minh. Mot nguoi thi so phanh phui dinh liu tum lum. Mot nguoi thi so k phanh phui se bo sot vi tien lam duoc tat ca moi viec. Thoi thi thuan theo tu nhien se k mat long nhau
+*********************************************
+group_id     : mogivietnam
+post_id      : 2350181001684276
+post_owner_id: 100004950605780
+post_content : ♻️Khách ký gửi nhà đất lưu ý giúp em: 👉👉khi ký gửi nhà đất thì phải gửi sổ qua giúp e là thứ nhất,k có sổ e sẽ k nhận (vì nếu chính chủ thì k ai lại k dám gửi sổ)
+👉👉Thứ 2 nữa là nếu nhà nằm trong quy hoạch thì phải nói trước để e biết. Vì e khi môi giới cho khách thì chắc chắn e phải tự kiểm tra quy hoạch lại lần nữa cho khách e.Sớm hay muộn thì e cũng biết.Khách nói trước để e hiểu rõ tình trạng nhà mà tìm đối tượng khách hàng và tư vấn cho khách mua dễ lựa chọn.Đừng cố giấu đi những khuyết điểm của nhà mình.Vì nếu bán nhà nằm trong quy hoạch mà không báo thì sẽ phải đền cọc gấp 2 lần đó ạ.
+👉👉thứ 3: E nhận ký gửi nhà không cần hoa hồng cao.Không cần khách phải cho 2% vì muốn bán nhanh.Nếu muốn bán nhanh thì khách đừng hét giá cao hơn thị trường,hoa hồng e nhận chỉ cần 1%.Nếu khách thật sự muốn bán nhanh thì cứ giảm 1% đó vào cho khách mua là e cảm ơn rồi ạ.3 bên đều có lợi sẽ nhanh bán hơn.     
+date_crawl   : 2019-07-03T14:33:41.978997
+date_post    : 2019-07-01T20:10:00
+no. comments : 20
+no. reactions: 44
+no. shares   : 0
+score        : 64
+post_comments: 
+    ------------    comment_owner_id: 100004950605780&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : dạ đúng rồi a hihi
+    comment_tags    : ['100034072449918']
+    comment_replies : 
+    ------------    comment_owner_id: 100034072449918&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : 
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100002172289756&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Khách trông chờ hết vô môi giới. Nói sao nghe vậy nên môi giới uy tín sẽ rất có trách nhiệm trong việc thông tin đến khách mua. Tất nhiên cũng đầy môi giới bẩn,lừa khách,nói sai sự thật...
+
+Nên làm vậy để làm lành mạnh mt mua bán, đẩy cò bẩn vô đường
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100004950605780&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : e chủ yếu nói vấn đề thứ 1 thôi.nhiều người gửi nhà nói chính chủ mà sổ sách k gửi.nên khả năng k phải chủ hoặc nhà có vấn đề nên sẵn nói luôn trên đây k nhận cho nhanh.
+    comment_tags    : ['100002172289756']
+    comment_replies : 
+    ------------    comment_owner_id: 100018473610726&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Bình Tân nha em, anh có 2 căn cần bán
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100013134999074&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : ok check ib nhé
+    comment_tags    : ['100004950605780']
+    comment_replies : 
+    ------------    comment_owner_id: 100006303644471&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Khanh Quynh trăm tỷ làm sao sánh được với mỹ nhân?
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100004845572078&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Chuẩn môi giới là đây, anh xin về đội của em nhé.
+    comment_tags    : []
+    comment_replies : 
+*********************************************
+group_id     : mogivietnam
+post_id      : 2351224388246604
+post_owner_id: 100000912534751
+post_content : Ai có khu đất như hình báo giá em :v. CHúc a c e 1 tháng đầy năng lượng và thành công. p/s: ali còn baba k a e ơi     
+date_crawl   : 2019-07-03T14:34:35.552324
+date_post    : 2019-07-02T09:59:00
+no. comments : 15
+no. reactions: 46
+no. shares   : 0
+score        : 61
+post_comments: 
+    ------------    comment_owner_id: 100005000950848&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Vẫn còn sóng nhé a
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100000912534751&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : bạn hót quá mình xem k nổi
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100000912534751&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : cho pass luôn a nha :v
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100001373743819&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Hẻm to thì qua tay nhiều lái rồi anh ơi, hẻm nhỏ hàng mới ngon 🤣
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100037343221449&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : 
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100004870058959&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Lô này nở hậu.. Nhưng mặt tiền hơi xấu nên ko dc đẹp
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100023237269228&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Lô này chắc đắt
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100003745610096&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Lô này chắc độn.
+    comment_tags    : []
+    comment_replies : 
+*********************************************
+group_id     : mogivietnam
+post_id      : 2351594191542957
+post_owner_id: 100023404416384
+post_content : Nhà chính chủ cần bán
+Giá 4 xxx xxx xxx
+Có sổ hồng riêng , không tranh chấp , giấy tờ hợp lệ ,
+Diên tích xây dựng : 41,7 m2, diện tích sàn 83,4 m2,
+Nhà 1 lầu , Sạch đẹp, Có thể dọn vào ở ngay,
+Vị trí trong trung tâm quận bình thạnh gần toà nhà land mark
+Tiếp các khách hàng có thiện chí mua
+Inbox qua tin nhắn hoặc Sđt 0903894369     
+date_crawl   : 2019-07-03T14:34:49.603083
+date_post    : 2019-07-02T15:37:00
+no. comments : 1
+no. reactions: 4
+no. shares   : 0
+score        : 5
+post_comments: 
+*********************************************
+group_id     : mogivietnam
+post_id      : 2352980888070954
+post_owner_id: 100010365166940
+post_content : mình đang có 2 căn Lavita Garden , ở Thủ đức, diện tích 68m2, 2pn, 2wc... view tầng 15... nhờ ace môi giới ra hộ hh 1%  
+date_crawl   : 2019-07-03T14:34:58.597926
+date_post    : 2019-07-03T10:28:00
+no. comments : 5
+no. reactions: 4
+no. shares   : 0
+score        : 9
+post_comments: 
+    ------------    comment_owner_id: 100026502381537&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : gửi em thông tin
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100010365166940&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : ib ạ
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100005146453710&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Inbox zalo 0913744448
+    comment_tags    : []
+    comment_replies : 
+*********************************************
+group_id     : mogivietnam
+post_id      : 2353010404734669
+post_owner_id: 100015567124984
+post_content : Hội mình có ai quan tâm đất sân bay ko.vị trí mặt tiền 80m cổng chính sân bay luôn     
+date_crawl   : 2019-07-03T14:35:08.442276
+date_post    : 2019-07-03T10:52:00
+no. comments : 2
+no. reactions: 1
+no. shares   : 0
+score        : 3
+post_comments: 
+*********************************************
+group_id     : mogivietnam
+post_id      : 2345953708773672
+post_owner_id: 100004532533728
+post_content : GÓC NHỎ TÌM ĐỒNG ĐỘI Hiện tại bên mình đang cần 10 bạn có đam mê với ngành BĐS, không yêu cầu KINH NGHIỆM hay BẰNG CẤP. Làm việc theo giờ hành chính, tháng off 4 ngày Lương cứng 7-10tr, hoa hồng 3-5% (từ 30-50tr / nền). Sản phẩm có phân khúc từ 800-1tỷ5, đã có sổ hồng và thuộc thành phố HCM. Làm việc trong môi trường trai xinh gái đẹp đầy nhiệt huyết, hòa đồng, Sếp dễ thương, hỗ trợ hết mình cho các bạn không có kinh nghiệm. Làm việc tại 131CN 11, Sơn Kỳ, Tân Phú. Việc của các bạn là liên hệ để biết rõ công việc và để được đi làm ngay.     
+date_crawl   : 2019-07-03T14:35:19.784655
+date_post    : 2019-06-29T09:00:00
+no. comments : 106
+no. reactions: 229
+no. shares   : 0
+score        : 335
+post_comments: 
+    ------------    comment_owner_id: 100004532533728&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : .
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100004475980262&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : :v mình cũng chỉ kêu xem thử chứ đâu bảo yêu.
+    comment_tags    : ['100004532533728']
+    comment_replies : 
+    ------------    comment_owner_id: 100004532533728&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : có k. lên đây làm với t.
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100004532533728&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : làm ở SG nè. ib đi nói cho nghe
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100037224653116&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Tiền như vậy được hk
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100004532533728&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : check ib nha bạn
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100004532533728&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : check ob nhé bạn
+    comment_tags    : ['100035748650542']
+    comment_replies : 
+    ------------    comment_owner_id: 100004532533728&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : chào bạn, bạn check ib để nói chuyện rõ hơn bạn nhé
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100004532533728&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : bạn có sn gì nếu hợp tác làm mkt cho c ty mình?
+    comment_tags    : ['100008012198989']
+    comment_replies : 
+    ------------    comment_owner_id: 100003063334854&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Căng
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100009903819154&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : 
+    comment_tags    : ['100005581385611']
+    comment_replies : 
+    ------------    comment_owner_id: 100004532533728&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : check ib ạ
     comment_tags    : []
     comment_replies : 
     ------------    comment_owner_id: 100006456093558&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : Giống mình đó bạn. Mà giờ mình làm ở Top land rồi.
+    comment_content : Đúng vậy. Không sai tý nào. Tuy nhiên, lúc telephone gặp khách muốn đầu tư Vũng Tàu. Nếu bỏ qua thì rất uổng. Đa phần các cty chỉ cấm khi các nhân viên đang bán cái này mà lại hợp tác chỉ đường tới dự án tương tự. Như thế không cấm mới lạ.
     comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100000015780733&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : đoạn đó bị sửa rồi e. E ko thấy font chữ đoạn đó khác với đoạn khác á? Bài báo thật là đây nè.
+    ------------    comment_owner_id: 100004532533728&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : check ib e nhé
     comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100009262738833&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : Cười tụt quần : ))
+    ------------    comment_owner_id: 100004532533728&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : check ib
     comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100000015780733&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : tìm
-    comment_tags    : ['100000912534751']
+    ------------    comment_owner_id: 100003936648810&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : 
+    comment_tags    : ['100004732920782']
     comment_replies : 
-    ------------    comment_owner_id: 100001850028695&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : chuẩn
-    comment_tags    : ['100003931740851']
-    comment_replies : 
-    ------------    comment_owner_id: 100000689142137&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : Vô đó được hầu cơm bung nước rót, thuốc hút xa xỉ quá :)) chân vắt chéo cầm quyển sách luật đọc đọc.. tại hạ thật khâm phục :))
-    comment_tags    : ['100000912534751']
-    comment_replies : 
-    ------------    comment_owner_id: 100000912534751&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : Khiêm Hoang cùng club Khá Bảnh, đây gọi là Khá Trinh
+    ------------    comment_owner_id: 100004532533728&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : check ib
     comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100036912844166&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : o
-    comment_tags    : ['100004796717696']
-    comment_replies : 
-    ------------    comment_owner_id: 100000912534751&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : Nếu như em và các bạn alibaba k cay nghiệt với mọi người thì cũng chẳng có ai cay nghiệt với các e ấy cả
+    ------------    comment_owner_id: 100004532533728&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : check ib
     comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100000194996058&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : xưng tội đi Chúa sẽ tha hết tội cho m. 😇😇😇😇😇
+    ------------    comment_owner_id: 100025106971764&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : 📡📡📡📡
     comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100026889240319&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : đồng nghiệp e do đây ngồi mát nè, chuẩn bị sếp luyện trọc nữa cũng do ngồi mát lun đây nè.
-    comment_tags    : ['100006816547012']
+    ------------    comment_owner_id: 100022457503002&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : căng căng à ngeng
+    comment_tags    : ['100004442791193']
     comment_replies : 
-*********************************************
-group_id     : mogivietnam
-post_id      : 2344675145568195
-post_owner_id: 100034120571149
-post_content : Em tiếp tục live giới thiệu về Đất Bình Dương Giá Rẻ nhé anh chị😍🤗
-Liên hệ 0339211502 Gặp Trung     
-date_crawl   : 2019-06-28T16:20:53.190841
-date_post    : 2019-06-28T16:07:00
-no. comments : 0
-no. reactions: 0
-no. shares   : 0
-score        : 0
-post_comments: 
-*********************************************
-group_id     : mogivietnam
-post_id      : 2344660778902965
-post_owner_id: 100022308631386
-post_content : 200m2 bình chiểu thủ đức 1ty5 ai ăn alo 0335192248     
-date_crawl   : 2019-06-28T16:21:04.319250
-date_post    : 2019-06-28T15:53:00
-no. comments : 2
-no. reactions: 5
-no. shares   : 0
-score        : 7
-post_comments: 
-*********************************************
-group_id     : mogivietnam
-post_id      : 2344261652276211
-post_owner_id: 100002096108340
-post_content : Ngay sau hôm khi chị Trinh bị bắt thì CEO của Alibaba lập danh sách những người bị đánh để thưởng 10 triệu =)))) Thấy chưa ai post clip này nên em post cho anh em xem.     
-date_crawl   : 2019-06-28T16:21:48.133407
-date_post    : 2019-06-28T09:48:00
-no. comments : 7
-no. reactions: 13
-no. shares   : 0
-score        : 20
-post_comments: 
-    ------------    comment_owner_id: 100030375370615&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : vậy bảo lãnh được chưa luyện
+    ------------    comment_owner_id: 100019945126156&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Không đam mê làm được ko
     comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100000045799849&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : Xã hội loạn, toàn là nhóm lợi ích thôi. Nhà nước cũng có nhiều nhóm lợi ích, tư bản tư nhân cũng có nhóm lợi ích
+    ------------    comment_owner_id: 100023618890135&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Ngon
     comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100035769365985&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : Mạnh mồm vậy
+    ------------    comment_owner_id: 100022783430303&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Anh mới nghĩ cong việt của em nek .thôi bôi này lam bds .kho khăn lam lam không dc canh tranh khóc liệt va .
     comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100001821870701&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : chưa còn o dài dài
+    ------------    comment_owner_id: 100022783430303&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Hi
     comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100004018303956&extragetparams={"directed_target_id": "812814125420979"}
+    ------------    comment_owner_id: 100022783430303&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Lương anh hiên tại chi co 12triu thôi du sống chứ không co dư nek
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100003948130475&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Sếp
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100003948130475&extragetparams={"directed_target_id": "812814125420979"}
     comment_content : 
     comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100000394786973&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : các bạn giúp anh cướp nhà băng 20 triệu, anh thưởng lại các bạn 10 triệu :v
+    ------------    comment_owner_id: 100004532533728&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : 131CN11, Sơn Kỳ, Tân Phú bạn nhé
+    comment_tags    : ['100004408746462']
+    comment_replies : 
+    ------------    comment_owner_id: 100029160067797&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : ok
+    comment_tags    : ['100004532533728']
+    comment_replies : 
+    ------------    comment_owner_id: 100027365000386&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Cho ngồi kề bạn này thì ok nha
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100024922985131&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Xin làm với ạ
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100012955807124&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : xin 1 chân nha
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100007278607114&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : có được ngồi kế bên e này thì ib a nhé em
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100004532533728&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : check ib
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100011424946014&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Được làm chung với chị thì inbox nhé
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100001621521678&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : 
+    comment_tags    : ['100000478688739']
+    comment_replies : 
+    ------------    comment_owner_id: 100032886842406&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : .
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100009545022473&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : dẫn cặp vk ck dễ xịt lắm. Dẫn ông ck đi thì khó xịt 😊
+    comment_tags    : ['100027441315391']
+    comment_replies : 
+    ------------    comment_owner_id: 100000388956155&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : muốn tham gia phỏng vấn - nhờ bạn nữ đó pv giùm mình nha
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100004532533728&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : check ib nha bạn
+    comment_tags    : ['100035122388700']
+    comment_replies : 
+    ------------    comment_owner_id: 100009554214811&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Hot🔥Hot🔥 Cơ Hội Tăng Thu Nhập Tăng Tỉ Lệ Chốt Deal Cho Các Bạn Sale BĐS.
+🎆🎇Thân gửi các bạn Sale khu vực SG - Bình Dương!
+🍃Hiện bên mình đang là sàn F1 dự án Charm City Dĩ An Bình Dương. Mình cần liên kết với các trên tinh thần hợp tác và sẳn sàng chơi
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100003267277633&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Gái xinh thì rinh 1 vé :))
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100034579043090&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Sao Như Phan ko trực tiếp post hình mình lên mà đưa hình nữ cute này vào . Dụ dổ đàn ông nha! Kkkk
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100038655994090&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : 
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100038655994090&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Alobaba
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100036901212653&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : 🎯🎯🎯LƯƠNG CAO - HOA HỒNG HẤP DẪN - NHẬN VIỆC NGAY🎯🎯🎯
+
+🤦‍♀️Khi bạn suy nghĩ, người khác đã làm
+🤦‍♀️Kh
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100006456093558&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Mặc dù hợp ý ae nhưng nói thế kỳ lắm.
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100029048220796&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Chào tất cả mọi người
+- Trong thời gian vừa qua tôi thấy rất nhiều trường hợp chơi lô đề dẫn đến xa bờ và fai đi vay mượn,cầm cố...
+- Vì vậy ae nào muốn đc giúp đỡ thì ib trực tiếp hoặc liên hệ qua zalo 0326412923. tôi sẽ giúp cho ae bằng những con số
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100009388533268&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Xin chào
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100029183926489&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : ..
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100006303644471&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Chủ đích của ảnh này là muốn giới thiệu gì thế?
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100001771737957&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : 📣📣Ngân Hàng Quốc Tế Shinhan tuyển dụng bổ sung nhân sự tháng 7 🏦🏦
+💥 Khu vực làm việc: HCM.
+✅ HỒ SƠ ĐƠN GIẢN, GIẢI NGÂN NHANH
+✅ LƯ
     comment_tags    : []
     comment_replies : 
 *********************************************
 group_id     : mogivietnam
-post_id      : 2344616168907426
-post_owner_id: 100004095276766
-post_content : Đất nền Hoà Long tp Bà Rịa dự án nào ok.anh em chỉ giúp với  
-date_crawl   : 2019-06-28T16:22:00.481362
-date_post    : 2019-06-28T15:08:00
-no. comments : 15
-no. reactions: 7
+post_id      : 2353013311401045
+post_owner_id: 100034389250291
+post_content : Em có Khách cần bán nhà Bình Thạnh,tài chính 12ty,ace nào có khách hợp tác nha!     
+date_crawl   : 2019-07-03T14:36:47.490798
+date_post    : 2019-07-03T10:55:00
+no. comments : 4
+no. reactions: 2
 no. shares   : 0
-score        : 22
+score        : 6
 post_comments: 
-    ------------    comment_owner_id: 100003823431754&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : Dự án dg hương lộ 2. Sau bệnh viện tỉnh
+    ------------    comment_owner_id: 100034389250291&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Có số zalo ko ạ add cho dễ trao đổi
+    comment_tags    : ['278797569686293']
+    comment_replies : 
+*********************************************
+group_id     : mogivietnam
+post_id      : 2349947211707655
+post_owner_id: 100004269524293
+post_content : Tài chính 1 tỷ đổ lại, cần mua đất ko xa trung tâm thành phố, đường có thể chạy ô tô, xây dựng tự do.     
+date_crawl   : 2019-07-03T14:36:58.110070
+date_post    : 2019-07-01T17:08:00
+no. comments : 76
+no. reactions: 28
+no. shares   : 0
+score        : 104
+post_comments: 
+    ------------    comment_owner_id: 100035802482759&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : cần bán các lô đất gần chợ đầu mối bình điền, Bình chánh, mặt tiền đường Dương Đình Cúc ,gần QL1A, sổ hồng riêng, công chứng san tên ngay.
+đất gần chợ đầu mối bình điền,QL1a, bệnh viện nhi đồng.
+cơ sở hạ tần Hoàn thiện, Điện âm nước máy, xây dựng tự do
     comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100003097375254&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : Siêu phẩm Lan Anh 7, nằm giữa 2 KCN,quy hoạch TTTM bên trong dự án.
+    ------------    comment_owner_id: 100003877561412&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Hẻm trần quý cáp . Cách bệnh viện vùng hơn 500m . Giá 200tr/1m . 6x30
     comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100033982608770&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : e mới cmt đó Anh. A đồng ý kết bạn, cho em xin sđt em xin Anh ít phút trao đổi về thị trường dc k Anh.
+    ------------    comment_owner_id: 100034544709958&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Dạ 1 tỉ8 giao thô chị
     comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100033982608770&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : số em nha 0913 281 739. Đang cho giữ suất định danh luôn. Siêu dự án đó Anh. giờ ở Việt Nam tìm dc dự án xin dc cấp phép căn hộ biển sở hữu lâu dài, k phải codotel gần như k có đâu Anh.
+    ------------    comment_owner_id: 100013060964435&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Đất ngay Cầu Đôi - Tỉnh Lộ 10 diện tích 100m2 giá 1,4 tỷ . Ngân hàng cho vay 850 triệu
     comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100000842861914&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : Đất đối diện sân bay Lộc An- Hồ Tràm
+    ------------    comment_owner_id: 100038630701789&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : bên đông triều được không bạn
     comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100002438782924&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : Đất nền phú mỹ liên hệ 0907870747
+    ------------    comment_owner_id: 100034324624240&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Đất trung tâm thành phố Đồng Xoài, Bình Phước đường rộng 32m gần trung tâm thương mại, sổ hồng riêng 900 triệu Liên hệ 0931.864.245
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100005895849143&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Đừng để đời chỉ là những chuỗi ngày được chấm công
+Miệng cười như nắng hạ, nhưng trong lòng thì chớm đông
+Nếu mà mệt quá, giữa thành phố sống chồng lên nhau hãy đến BẤT ĐỘNG SẢN NGÔI NHÀ CƯỜI
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100029222379275&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Đất nền sổ hồng riêng bao giấy phép xây dựng tại hóc môn.
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100022451931266&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : TP đồng xoài nha anh
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100022451931266&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Giá 5tr/2 xây dựng tự do đã ó sổ
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100036027347825&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Dt 342,8m2 có 120m2 đất thổ cư
+Ngang 8,3m
+Thuộc Xã Thái Mỹ, Củ Chi và cách TL7 tầm 100m
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100022451931266&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Xem sổ trước khi mua
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100016747989942&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Bình dương lh : 0988359214
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100008291830088&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : 50.8m2 1.15 tỷ Vân canh hoài Đức, ngõ xe máy tránh nhau. Cách Mỹ Đình chỉ 4km
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100005578477863&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Đất nằm ở trung tâm Bảo Lộc. Diện tích 5x20m, sổ đỏ riêng, thổ cư 100%
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100005498347097&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : 171 m2 full thổ cư, mặt tiền nhựa, THÁI MỸ, CỦ CHI đường nhựa thẳng từ quốc lộ 22 vào tới nhà giá 980tr cực rẻ nhé. Đất của cậu em kẹt tiền cần ra gấp trong tháng 6, chấp nhận phí môi giới 2% luôn.
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100026206184724&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Mình có dự án ở gần trung tâm hành chính Bà Rịa, có nhiều thuận lợi vì gần bệnh viện, trường học, chợ, khu dân cư hiện hữu, (25×5) (26×5),(27×5) giá từ 7->12tr/m² tùy khu, dự án đang được mở bán. Có hỗ trợ xe tham quan dự án. Anh/ chị cần thêm thông tin liêm hệ facebook hoạc zalo 0392999208 ạ.
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100003853255419&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Nhà bình chánh giá 1 tỷ 7 hỗ trợ vay ngân hàng 50%, có shr
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100003217479843&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Long an-bến lức thế nào anh?
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100030926470534&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Xã mỹ hạnh nam Đức hoà Long an 6*30 đất vườn đường xe oto tới đất giá ty300
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100005406709325&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : 0898873290 đất cách QL51 8KM
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100002170502818&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Đất cách quốc lộ 3 km
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100007889868725&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Đất Long An quá thích hợp. Giá 1ty2. Thiện chí bớt chút lộc. Lh 0855832837
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100021990816184&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : mua đất vùng ven đầu tư đi a.,giấy tờ pháp lý okk.đảm bảo lợi nhuận 30% /năm
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100006019244079&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Thuận an bình dương, xây tự do, 1ty260tr, trả góp 24 tháng, zalo e 0906872629
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100035938517617&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Đất ngay trung tâm Thuận An, mặt tiền đường, sổ hồng riêng, xây dựng tự do. Inbox hoặc liên hệ: 08.99999.006
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100000455086009&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : 980tr/85m2! Ngay Mt tỉnh lộ 8- kcn Thái Hoà Nhật Bản và nhà máy bia Sapporo! Vip ! Bao ra hàng nhanh
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100012711582300&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Cho thuê CH từ 6tr >> 10tr.Bán từ 1,550>>2,050tr nhiều dịch vụ tiện ích miễn phí
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100035030734259&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : CÒN 3 LÔ NGAY TRƯỜNG HỌC TÓC TIÊN, ĐƯỜNG NHỰA NHÀ NƯỚC 8M, 5 X 21 CÓ 100M THỔ CƯ, SỔ CÓ SẴN .
+
+LH : 0775 49 49 94.
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100009141040465&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Đất sân gold long thành giá 800 triệu xây dựng tự do ngân hàng cho vay 50%
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100012870437069&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Trảng dài 5*21 850tr điện nước đầy đủ xây dựng OK hem thông
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100002346275069&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Đất ngay trung tâm thành phố Vĩnh Long.sổ hồng sẳn chỉ việc sang tên. Giá chỉ 738 triệu. Liên hệ 0763656713 để được hỗ trợ
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100013995753398&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : 5x55 Đức Hòa Thượng đường trải nhựa
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100009758792145&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Đất nền đã có sẵn sổ đỏ công chứng ủy quyền trong ngày luôn thổ cư 100% 797tr/nền nếu được liên hệ e ạ
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100009203547063&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Chính chủ cần ra Gấp lô đất thổ cư tại Mỹ Hạnh Bắc
+Diện tích 5 X 36 mét
+Đường đất 4 mét, xe hơi vào tận nới
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100012597792029&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Phường phước tân. Lh 0797.530.623
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100005763971819&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Bà Rịa
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100036890962944&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Đất nền 2 mặt tiền QL22 Củ Chi, SHR, Full Thổ Cư 100%
+Diện tích :115m2 Ngang 5
+Giá chỉ từ: 779tr/nền
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100028401407677&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Nhà đc ko ạ? Bình thạnh giá 1 tỷ290 một trệt một lầu,gần trung tâm sg ,0938228853
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100028401407677&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : 
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100000102083957&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Bình dương ,tân an. 100m2 thổ cư ,đường nhựa 6m. Giá 1ty duoi quay đầu. Qan tâm inbox
     comment_tags    : []
     comment_replies : 
     ------------    comment_owner_id: 100004342653852&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : Bạn ip mình nha
+    comment_content : Bàu bàng bình dương 62o triệu / nền
     comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100004165815014&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : 💵💵💵Kèo thơm xuất hiện: Đất ven hồ hạ tầng hoàn thiện: 1000m2 = 1,3 tỏi!!!💵💵💵
-
-🍃🍃🍃CÓ MỘT “BẢO LỘC” VEN BIỂN🌴🌴🌴
-☘️Hồ Suối M
+    ------------    comment_owner_id: 100008278748795&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : 
     comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100035203746943&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : ĐẦU TƯ đất ĐÓN ĐẦU 220tr/ nền ( Trảng Bom Đồng Nai)
-SỔ hồng riêng full THỔ CƯ (Nhận sau 6 tháng)
-GẦN Khu Công Nghiệp, chợ, trường học, công viên
+    ------------    comment_owner_id: 100029448435600&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Bán Đất nền ngay Ngã 3 Long quận 9:
+- Giá 2tỷ1/ 60m².
+- Thổ cư 100%, SHR.
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100004828742187&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Ngân hàng HDBank chuyên cho vay mua bất động sản, nhà dự án, chung cư có sổ đỏ, mua ô tô cũ - mới, vay kinh doanh, vay xây sửa nhà cửa, vay bù đắp tại Hà Nội với tiêu chí:
+💚Thời gian vay tối đa: 20 năm
+💚Vay tối đa 70% giá trị tài sản đảm bảo
+💚
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100008181335673&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : 
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100008181335673&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : 
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100008181335673&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : 
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100008181335673&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Đường 17m ngay trung tâm Bà Rịa giá 1ty020
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100003567243542&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Em bán lô đất ở Đức hòa. 1ty8 sổ riêng
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100028903174891&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : ib đất khu Bình chuẩn
+    comment_tags    : ['100038364789014']
+    comment_replies : 
+    ------------    comment_owner_id: 100034463087264&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : ib sổ nhé b
+    comment_tags    : ['100022074255886']
+    comment_replies : 
+    ------------    comment_owner_id: 100036903291834&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Check ib e với ạ
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100013085409868&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : 100 nền duy nhất Sổ Đỏ Riêng ngay chợ Bến Lức - Long An - Giá : 650tr/100m2 = 1/2 Thị Trường. Cam kết lợi nhuận 35% sau 6 tháng - LH : 0969281709
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100004457322679&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Đất Tiến Lộc Garden ngay chợ long thọ. Nhơn Trạch Đồng Nai
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100036007236586&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : đầu tư dất nền nhơn trạch giá rẻ 0981663199
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100005269392877&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Bình chuẩn,thuận an,bình dương. Lh:0989705403
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100025123133007&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : cần ra gấp miếng đất bình tân hương lộ 2 , shr , hẻm xe hơi 6m , dt 10*11=106m .. GIÁ 4.85 TỶ..ae mg hh 1% .....LH 0933818835 THÀNH ĐỂ BIẾT THÊM thông tin
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100028304947226&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : đất nền sát Bình Chánh, QL50 950tr/nền, SR, 72m2. LH 0938351914 Linh
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100034618277963&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : t có, 0902676714
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100014251908244&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Chỉ với 602tr sở hữu một lô đất nền Hoà Lạc full thổ cư. Cơ hội đầu tư lên tới 30-50% trong 1 năm.
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100029441269931&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : an phú, bình dương đc ko bác
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100001081278023&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Long an từ thanh pho đi den đat 30 cay so
     comment_tags    : []
     comment_replies : 
 *********************************************
 group_id     : mogivietnam
-post_id      : 2344387205596989
-post_owner_id: 100003343358273
-post_content : HOA HỒNG 1%<br> Nhờ anh chị em mg bán giúp căn nhà ở đường Chu Văn An p12 Bình Thạnh, ngay chợ Cây Điệp giá 1.52 tỷ. Liên hệ 0904112096 hoặc inb để xem sổ và hình nhà!  
-date_crawl   : 2019-06-28T16:22:13.960462
-date_post    : 2019-06-28T11:28:00
-no. comments : 42
-no. reactions: 12
+post_id      : 2353211828047860
+post_owner_id: 100007760501145
+post_content : Tài chính 5ty cần tư vấn đất vùng ven lh 0903701336     
+date_crawl   : 2019-07-03T14:37:18.799066
+date_post    : 2019-07-03T14:09:00
+no. comments : 33
+no. reactions: 11
 no. shares   : 0
-score        : 54
+score        : 44
 post_comments: 
-    ------------    comment_owner_id: 100003343358273&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : Nguyễn Hoà check inb
+    ------------    comment_owner_id: 100015138154120&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Đông anh mua đất di a
     comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100003343358273&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : check inb nhé
-    comment_tags    : ['100025274382655']
-    comment_replies : 
-    ------------    comment_owner_id: 100003343358273&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : check inb ạ
-    comment_tags    : ['100028629092005']
-    comment_replies : 
-    ------------    comment_owner_id: 100006176130588&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : Ib e với ạ
+    ------------    comment_owner_id: 100004938730331&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Vị trí . Cách vòng xoay Ql.56 chỉ 500m . Đường số 13. P. Hòa long - TPBRVT . Cơ sở hạ tầng hoàn thiện . Điện nước . Cây xanh , lối thoát hiểm 1m . Vỉa hè 6m . Sổ riêng . Thổ cư 6om . Giá 10tr/m. Trả góp 7 tháng ko lãi xuất . Lh. 0981174619
     comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100003343358273&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : check inb bạn nhé mình gửi sổ
-    comment_tags    : ['100008960051933']
+    ------------    comment_owner_id: 100027078050026&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : đất bình dương mặt tiền quốc lộ 13 giá 620 triệu trả góp trong vòng 1 năm 0% lãi suất đã có sổ hồng riêng.LH:0706951137
+    comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100003343358273&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : check inb nhé bạn
-    comment_tags    : ['100009879904909']
+    ------------    comment_owner_id: 100023041788596&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Đất hoà lạc chính chủ ib em
+    comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100003343358273&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : check inb nha
-    comment_tags    : ['100020258854616']
+    ------------    comment_owner_id: 100035253905023&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Về Tây Ninh ngay trung tâm đất bao đẹp
+    comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100003343358273&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : đã gửi a check nhé
-    comment_tags    : ['100004399950354']
+    ------------    comment_owner_id: 100010365166940&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : ĐẦU TƯ VÔ MŨI NÉ PHAN THIẾT ĐI
+    comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100003343358273&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : check inb nhé b
-    comment_tags    : ['100001892431066']
+    ------------    comment_owner_id: 1803161205&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Villas Dola Vũng Tàu - Đất nền biệt thự
+Dự án ngay khu biển Cửa Lấp BRVT.
+Hiện trạng đang là đất trồng cây lâu năm. Pháp lí sổ hồng riêng từng nền.
+    comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100003343358273&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : check inb nhé bạn mình có gửi sổ và hình nhà rồi
-    comment_tags    : ['100003571516945']
+    ------------    comment_owner_id: 100001110747042&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Mua nhà q2 inbox mình
+    comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100003343358273&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : check inb b nhé
-    comment_tags    : ['100029789437276']
+    ------------    comment_owner_id: 100006318699217&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Đường 835b khu luxury 1ty3 90 m2
+    comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100003343358273&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : check inb nhé b
-    comment_tags    : ['100014818660266']
+    ------------    comment_owner_id: 100003014900244&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Villa Đà Lạt gần chợ Đà Lạt. Sổ hồng hoàn công giá 5t. LH: 0906249493
+    comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100003343358273&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : check inb nhé b
-    comment_tags    : ['100010444869251']
+    ------------    comment_owner_id: 100000111424817&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : mua về làm dự án à hihi
+    comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100003343358273&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : check inb nhé b
-    comment_tags    : ['100000010198532']
+    ------------    comment_owner_id: 100005994429108&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Đất vùng ven gio chỉ có phú mỹ vũng tàu là tiềm năng nhất vì tương lai nó lên tp cảng.
+    comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100003343358273&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : vào tin nhắn chờ của fb bạn nhé
-    comment_tags    : ['100004809671398']
+    ------------    comment_owner_id: 100001730857347&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Nhà quận 4, sát trung tâm, bao đẹp, giá 5 tỷ, mua đầu tư hay ở đều được. Quan tâm ib
+    comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100003343358273&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : check inb nhé
-    comment_tags    : ['1800492228']
+    ------------    comment_owner_id: 100006833647863&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : 💥💥💥Cần bán gấp 2 lô đường quốc lộ 50, huyện Bình Chánh. Đất Bình Chánh, xã Qui Đức, Quốc Lộ 50 (100% thổ cư) view sông đẹp .
+
+🌂🌂🌂 MT đường 10M, khu dân cư đông đúc, Xây dựng tự do. Công ty hỗ trợ xin phép, bản vẽ xây dựng
+📔📔📔 S
+    comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100003343358273&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : check inb
-    comment_tags    : ['100005631974506']
+    ------------    comment_owner_id: 100004869816052&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Quận Thủ Đức đc k ban: 0869225222 Mr Nhân
+    comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100003343358273&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : check inb ạ
-    comment_tags    : ['100009513984013']
+    ------------    comment_owner_id: 100035766024211&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Dự án nhơn trạch giá 6tr/m2 .100% thổ cư. Nằm ngay 2 mặt tiền đường hùng vương và huỳnh thúc kháng ,pháp lý rõ ràng . Lh 0937076332 để được tư vấn chi tiết
+    comment_tags    : []
     comment_replies : 
-    ------------    comment_owner_id: 100003343358273&extragetparams={"directed_target_id": "812814125420979"}
-    comment_content : check inb ạ
-    comment_tags    : ['100038364789014']
+    ------------    comment_owner_id: 100006649711006&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Team alibaba rồi
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100022437635854&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : 🌈VINHOMES GRAND PARK Q9
+0969831751 - James Đức
+🎟️ Giữ chỗ 50-100tr/căn
+🏣
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100022253134831&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Đầu tư đất XUÂN LỘC - ĐỒNG NAI hay ĐỨC LINH - BÌNH THUẬN k a 0333788752(trung)
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100011803092343&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : BÁN GẤP ĐẤT BÌNH MỸ CỦ CHI SHR, MẶT TIỀN ĐƯỜNG 20M, GIÁ GỐC F1 TỪ CĐT, CHỈ 1tỷ3/NỀN SINH LỢI 20% TRONG 4 THÁNG
+
+⚠KHU DÂN CƯ BÌNH MỸ ⚠ĐẦU TƯ F1 ( chỉ còn rất ít nhanh tay đầu tư ngay giai đoạn đầu nhé)
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100024818676044&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Hồ Tràm Vũng tàu nè.
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100005275579465&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Lô đất 71,6 m2 đường Ng Xiển gần Vin Q9 3ty4
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100003537784415&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Đất nằm trên đường Nguyễn văn Ni, Cách tỉnh lộ 8 khoảng 100m, gần trung tâm y tế, Uỷ ban, trường học các cấp, đại học Gia Định, chợ, siêu thị, khu công nghiệp....
+Địa chỉ lô đất hẻm 62 nguyển văn ni vào 50m là đến, hẻm rô
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100003537784415&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : 
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100003537784415&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : 
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100005036862804&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : đầu tư nhơn trạch liên hệ em
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100002615342973&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : 
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100005626119642&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : 
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100005626119642&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : /-li Cần bán nhanh lô đất 1sec đường 980 cách mặt tiền NDT phú hữu quận 9 50m
+/-rose Đường vào 7m 2xe hơi tránh nhau
+Ngang 5+15,5m xây dựng tuyệt đẹp
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100009254305848&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Lh 0913 545 060 đất ngay cổng chào Bình Dương
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100011559486277&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Sale bên nhơn trạch nhờ tư vấn 😂😂😂
+    comment_tags    : []
+    comment_replies : 
+    ------------    comment_owner_id: 100011559486277&extragetparams={"directed_target_id": "812814125420979"}
+    comment_content : Team của bọn cướp alibaba
+    comment_tags    : []
     comment_replies : 
