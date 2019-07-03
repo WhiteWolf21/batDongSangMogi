@@ -1,16 +1,16 @@
 Hình ảnh,Thương lượng giá,Ngân hàng bảo lãnh
-cho xin ảnh,giảm không,ngân hàng nào hỗ trợ
-cho xin hình ảnh,giảm ko,ngân hàng nào bảo lãnh
-cho xem ảnh,giảm k,ngân hàng nào cho vay
-cho xem hình ảnh,giảm hông,ngân hàng gì hỗ trợ
-cho coi ảnh,giảm kg,ngân hàng gì bảo lãnh
-cho coi hình ảnh,có bớt không,ngân hàng gì cho vay
-cho xin anh,có bớt ko,n.hàng nào hỗ trợ
-cho xin hinh anh,có bớt k,n.hàng nào bảo lãnh
-cho xem anh,có bớt hông,n.hàng nào cho vay
-cho xem hinh anh,có bớt kg,n.hàng gì hỗ trợ
-cho coi anh,không giảm à,n.hàng gì bảo lãnh
-cho coi hinh anh,không giảm ah,n.hàng gì cho vay
+cho xin ảnh,giảm không,"ngân hàng,hỗ trợ"
+cho xin hình ảnh,giảm ko,"ngân hàng,bảo lãnh"
+cho xem ảnh,giảm k,"ngân hàng,cho vay"
+cho xem hình ảnh,giảm hông,"ngân hàng,vay"
+cho coi ảnh,giảm kg,"ngân hàng,tài trợ"
+cho coi hình ảnh,có bớt không,"n.hàng,hỗ trợ"
+cho xin anh,có bớt ko,"n.hàng,bảo lãnh"
+cho xin hinh anh,có bớt k,"n.hàng,cho vay"
+cho xem anh,có bớt hông,"n.hàng,vay"
+cho xem hinh anh,có bớt kg,"n.hàng,tài trợ"
+cho coi anh,không giảm à,
+cho coi hinh anh,không giảm ah,
 ,không giảm hả,
 ,không giảm sao,
 ,không bớt à,
