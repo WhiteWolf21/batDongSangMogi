@@ -39,7 +39,7 @@ def get_link(signin_driver):
             continue
         else:
             posts_link.append(link)
-    # posts_link.append('https://www.facebook.com/groups/mogivietnam/permalink/2351224388246604/')
+    # posts_link.append('https://www.facebook.com/groups/mogivietnam/permalink/2354823484553361/')
     #https://www.facebook.com/groups/mogivietnam/permalink/2335039689865074/
     # print(posts_link)
     crawl_comm(signin_driver, posts_link)
