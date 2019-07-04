@@ -78,9 +78,9 @@ def crawl_comm(signin_driver, links):
 
                 first_img_id = ""
 
-                for i in range(20):
+                for i in range(30):
                     print(i)
-                    sleep(1)
+                    sleep(5)
                     tmp = signin_driver.find_element_by_class_name('spotlight')
                     img_src = tmp.get_attribute("src")
                     img_id = findall(re_img_id, img_src)
