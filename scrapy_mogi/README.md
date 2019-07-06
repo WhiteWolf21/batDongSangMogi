@@ -19,6 +19,7 @@ If you want to run in *local machine*, please do as follows:
 ### settings.py
 The configurations are set in `settings.py` in `mogi_vn\settings.py`
 Below lists the settings you can change in project:
+
 |                |Role                                                            |Default value    |
 |----------------|----------------------------------------------------------------|-----------------|
 |`MONGO_LINK`    |Link of Mongo server                                            |"localhost:27017"|
