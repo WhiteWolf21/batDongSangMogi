@@ -98,10 +98,5 @@ class PostInfo:
     def get_post_comments(self):
         return self._info['post_comments']
 
-    def add_comment(self, comment_owner_id, comment_content, comment_tags, comment_replies):
-        self._info['post_comments'].append({
-            'comment_owner_id': comment_owner_id,
-            'comment_content' : comment_content,
-            'comment_tags'    : comment_tags,
-            'comment_replies' : comment_replies
-        })
+    def add_comment(self, comment):
+        self._info['post_comments'].append(comment)

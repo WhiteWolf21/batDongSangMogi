@@ -25,6 +25,6 @@ def back_up(posts_info):
                 file.write("    comment_tags    : "+ str(comment['comment_tags']) + "\n")
                 file.write("    comment_replies : "+ "\n")
                 for reply in comment['comment_replies']:
-                    file.write("      reply_user   :"+ reply['reply_user']+ "\n")
-                    file.write("      reply_comment:"+ reply['reply_comment']+ "\n")
-                    file.write("      reply_tag    :"+ str(reply['reply_tag'])+ "\n")
+                    file.write("      reply_user   :"+ reply['comment_owner_id']+ "\n")
+                    file.write("      reply_comment:"+ reply['comment_content']+ "\n")
+                    file.write("      reply_tag    :"+ str(reply['comment_tags'])+ "\n")

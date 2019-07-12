@@ -33,6 +33,6 @@ def check_isLock(signin_driver):
             if i == 2:
                 return False
             else:
-                sleep(random_time(1, 2))
+                sleep(2)
                 signin_driver.refresh()
                 continue

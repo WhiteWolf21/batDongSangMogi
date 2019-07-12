@@ -1,5 +1,5 @@
 # The Holy
-### v1.5
+### v1.5.1
 
 #### Created by
  - *Mai Pham*
@@ -35,6 +35,10 @@
 ##### $ in development $
  - Configuring setting is much easier and convienient
 
+#### v1.5.1
+##### July 12, 2019
+ - Fix issues in crawling image and comment
+ 
 #### v1.5
 ##### July 1, 2019
  - Add *Save image* feature: the pictures are now stored in folder `images` in parent directory
@@ -42,7 +46,9 @@
  - Result is stored in file `result.txt`
  - Config is now set in `settings.py`
  - Crawl many pages in one running time
+ 
 ##### v1.4
  - Enhance the crawling post content mechanism
+ 
 ##### v1.3.1
  - Fix datetime error as `12 PM` or `12 AM`

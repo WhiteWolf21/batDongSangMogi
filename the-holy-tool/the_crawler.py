@@ -1,4 +1,4 @@
-
+import datetime
 from time import sleep
 
 from modules.crawl.crawl import crawl
@@ -7,6 +7,12 @@ from modules.back_up_data.back_up import back_up
 import settings
 
 def main():
+    # check if the license is valid
+    if datetime.datetime.now().year != 2019:
+        print("### License is expired. Please contact Dr Tho for license. He he he. ###")
+        exit(0)
+
+    
     #read accounts' info
     with open("acct.csv", "r") as file:
         accounts = file.readlines()

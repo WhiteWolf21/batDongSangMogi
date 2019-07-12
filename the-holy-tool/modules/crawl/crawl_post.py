@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from re import findall
-from selenium.common.exceptions import NoSuchElementException
-from selenium.common.exceptions import TimeoutException
+from re import findall, search
+from selenium.common.exceptions import NoSuchElementException, TimeoutException, ElementNotInteractableException
 from time import sleep
 from datetime import datetime
 from selenium.webdriver.common.keys import Keys
@@ -46,9 +45,8 @@ def crawl_post(signin_driver, links):
     N_max_post_each_acc = settings.MAX_POST_EACH    
     n_max = 0
 
-
     while len(links) > 0:
-        sleep(random_time(5, 8))
+        sleep(random_time(2, 5))
 
         if n_max == N_max_post_each_acc:
             # this account reaches the upper bound
@@ -148,11 +146,14 @@ def crawl_post(signin_driver, links):
             first_img_id = ""
             
             img_folder = "images/" + post_info.get_info("post_id")
-            os.mkdir(img_folder)
+            try:
+                os.mkdir(img_folder)
+            except FileExistsError:
+                pass
 
-            for i in  range(20):
+            for i in range(30):
                 print(i)
-                sleep(5)
+                sleep(2)
                 tmp = signin_driver.find_element_by_class_name('spotlight')
                 img_src = tmp.get_attribute("src")
                 img_id = findall(re_img_id, img_src)
@@ -160,6 +161,7 @@ def crawl_post(signin_driver, links):
                     first_img_id = img_id
                 else:
                     if img_id == first_img_id:
+                        element.send_keys(Keys.ESCAPE)
                         break
 
 
@@ -175,7 +177,7 @@ def crawl_post(signin_driver, links):
             # if no image exists, continue the task
             pass
 
-
+        
 
 
         # assign date the post is published
@@ -347,108 +349,41 @@ def crawl_post(signin_driver, links):
         # ************************************************** CRAWL COMMENT **************************************************
 
 
-         # Show all comments and replies
+        # Show all comments and replies
         while True:
             try:
-                a_tag = signin_driver.find_element_by_xpath("//a[@class='_4sxc _42ft']")
+                # a[@class='_4sxc _42ft'] : "See more replies" button
+                # a[@class='_5v47 fss'] : "Show more content" button
+
+                a_tag = signin_driver.find_element_by_xpath("//a[@class='_4sxc _42ft' or @class='_5v47 fss']")
                 a_tag.click()
                 sleep(0.75)
-            except NoSuchElementException:
+            except (NoSuchElementException, ElementNotInteractableException):
                 break
 
-        # assign comment for post
-        #comments = signin_driver.find_elements_by_class_name('_72vr')
-        comments_replies = signin_driver.find_elements_by_xpath("//div[@aria-label='Comment' or @aria-label='Comment reply']")        
-      
-
-        if len(comments_replies) > 0:
-            # if post has comment(s)           
-            
-
-            # For comment or reply, we do:
-            #   if the current is comment:
-            #       append to post_info.post_comments if the current comment is not the first comment of the post
-            #   then get owner id, tagged user and content of the current
-            
-            comm_count = 0
-            flag_comment_reply = True                       # True: the current is comment, False: otherwise
-            comm_replies = []
-
-            
-            for comment_reply in comments_replies:
-                
-                comm_count += 1
-
+        comment = None        
+        comments_replies = signin_driver.find_elements_by_xpath("//div[@aria-label='Comment' or @aria-label='Comment reply']")
+        for comment_reply, i in zip(comments_replies, range(len(comments_replies))):            
+            if comment_reply.get_attribute('aria-label') == "Comment":
                 # this is comment
-                if comment_reply.get_attribute('aria-label') == "Comment":
-                    # print("This is comment")
-                    flag_comment_reply = True
-                    # if this is not first comment
-                    if comm_count > 1:
-                        post_info.add_comment(comm_rep_user, comm_rep_content, comm_rep_tag, comm_replies)
-                        comm_replies = []
 
-                # this is reply of comment
-                # else:
-                    # print("This is reply")
-              
+                if comment is not None:
+                    post_info.add_comment(comment)
 
-                
-                # extract data of reply or comment
+                comment = {}
+                comment_extraction(comment, comment_reply)
+                comment['comment_replies']  = []
 
-                ## get comment's or reply's owner ID
+            else:
+                #this is reply
 
-                try:
-                    tmp = comment_reply.find_element_by_class_name('_6qw4').get_attribute('data-hovercard')
-                except NoSuchElementException:
-                    # this is live stream
-                    break
+                reply = dict()
+                comment_extraction(reply, comment_reply)
 
+                comment['comment_replies'].append(reply)
 
-                comm_rep_user = findall(re_comm_user_id, tmp)[0]
-
-                # print("Comm user id: ", comm_rep_user)
-                
-                
-                ## get content and (or) tagged user of comment or reply
-                comm_rep_content = ""
-                comm_rep_tag     = []
-                try:
-                    comment_class = comment_reply.find_element_by_class_name('_3l3x')
-
-                    # get text in comment
-                    try:
-                        comm_rep_content = comment_class.find_element_by_tag_name('span').text
-                        # print("Text: ", comm_rep_content)
-                    except NoSuchElementException:
-                        pass
-
-                    # get tag in comment
-                    try:
-
-                        tag = comment_class.find_element_by_tag_name('a').get_attribute('data-hovercard')
-
-                        comm_rep_tag.append(findall(re_comm_user_id, tag)[0])
-
-                        # print("Tag id: ", comm_rep_tag)
-                    except NoSuchElementException:
-                        pass
-                    except TypeError:
-                        pass
-                
-                except NoSuchElementException:
-                    pass
-
-                
-                # if the current is reply, add reply to list comm_replies
-                if flag_comment_reply is False:
-                    comm_replies.append({
-                        'reply_user'   : comm_rep_user,
-                        'reply_comment': comm_rep_content,
-                        'reply_tag'    : comm_rep_tag
-                    })
-
-            
+            if i == len(comments_replies) - 1:
+                post_info.add_comment(comment)
 
 
         # append to posts_info        
@@ -473,3 +408,31 @@ def get_datetime(datetime_str):
             hour += 12
         return datetime(int(result[0][2]) + 2000, int(result[0][0]), int(result[0][1]), hour, int(result[0][4])).isoformat()
 
+
+def comment_extraction(comment, element):
+    '''Try to extract owner id, content and tagged user
+    '''
+
+    comment['comment_owner_id'] = findall(r"id=(\d+)", element.find_element_by_xpath(".//a[@class=' _3mf5 _3mg0' or @class=' _3mf5 _3mg1']").get_attribute("data-hovercard"))[0]
+
+    # there are 2 cases for this:
+    # - the content is short enough, so there is not button "See more": in this case, the element containing the content is span[@class='_3l3x']/span
+    # - the content is long, so there is a button "See more"          : in this case, the elements containing the content are span[@class='_3l3x _1n4g']/span
+
+    try:
+        comment['comment_content']  = element.find_element_by_xpath(".//span[@class='_3l3x']/span").text
+    except NoSuchElementException:
+        comment['comment_content']  = ""
+        tmp                     = element.find_elements_by_xpath(".//span[@class='_3l3x _1n4g']/span")
+        for element in tmp:
+            comment['comment_content'] = comment['comment_content'] + ' ' + element.text
+
+    comment['comment_tags'] = []
+    for tagged_user in element.find_elements_by_xpath(".//span[@class='_3l3x' or @class='_3l3x _1n4g']/a"):
+        tagged_user_id = tagged_user.get_attribute('data-hovercard')
+        
+
+        if tagged_user_id is not None:
+            if search(r"photo", tagged_user_id) is None:
+                # if this is not 
+                comment['comment_tags'].append(findall(re_comm_user_id, tagged_user_id)[0])
