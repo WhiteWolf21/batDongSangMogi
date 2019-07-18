@@ -1,0 +1,20 @@
+.col.buy {
+    text-align: center;
+}
+
+.col.sell {
+    text-align: center;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.post-link {
+    display: inline-block;
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    height: 20px;
+}
