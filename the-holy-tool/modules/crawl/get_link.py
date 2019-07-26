@@ -6,8 +6,11 @@ from selenium.common.exceptions import NoSuchElementException
 import settings
 from modules.miscellaneous import random_time
 from modules.miscellaneous import check_isLock
+from pymongo import MongoClient
 
-re_id    = r"\/(\d+)"
+
+# re_id    = r"\/(\d+)"
+re_id    = r"permalink\/(\d+)"
 
 def get_link(signin_driver):
     '''Get link of posts in homepage of group.
@@ -53,7 +56,20 @@ def get_link(signin_driver):
                     if len(findall(pattern=re_group, string=link)) == 0:
                         continue
                     else:
-                        posts_link.append(link)
+                        # posts_link.append(link)
+                    
+                        # #if link available
+
+                        # # check whether the post is crawled by check its ID in database
+                        id = findall(pattern=re_id, string=link)[0]
+
+                        print("id : ", id)
+                        ## check whether the post is already crawled by checking ID
+                        if check_old_ID(id):
+                            # no post in database has this ID
+                            posts_link.append(link)                            
+                        else:
+                            print("This link has already crawled.")
                             
 
             signin_driver.quit()            
@@ -72,19 +88,23 @@ def get_link(signin_driver):
                     continue
 
     
-# def db_get_old_post():
-#     """Get a list of old post ID in specified page and domain
-#     :Args:
-#     page - a page of web
-#     domain - a area and real estate type
-#     :Rets:
-#     a list of old post ID
-#     """
-    
-#     client = MongoClient(settings.MONGO_LINK)
-#     collection = client[settings.MONGO_DB][settings.MONGO_DATA]
-#     IDs = collection.find({'page': 'https://facebook.com/'}).distinct("post_id")
-#     client.close()
+def check_old_ID(id):
+    """Check if the id is already in database
 
-#     return IDs
+    :Args:
+    id - an ID of post 
+       
+    :Return:
+    True - there is no post having given ID
+    False - otherwise
+    """
+    client = MongoClient(settings.MONGO_LINK)
+    records = list(client[settings.MONGO_DB][settings.MONGO_DATA].find({"post_id" : id}))
+    client.close()
+
+    if len(records) == 0:
+        # no post has that ID
+        return True
+    else:
+        return False
 

@@ -53,6 +53,7 @@ def crawl():
 
         
     # sign in and crawl post
+    len_links = len(posts_link)
     while True:
         account = pick_account(account_list)
         # if every accounts are blocked
@@ -69,7 +70,7 @@ def crawl():
             continue
                      
         # crawl post
-        tmp = crawl_post(signin_driver, posts_link)        
+        tmp = crawl_post(signin_driver, posts_link,len_links)        
         if tmp is not None:
             posts_info = posts_info + tmp
         else:
@@ -78,7 +79,8 @@ def crawl():
             print("** Account: \'", account['user'], "\' is blocked")
 
         # check if whether continue crawling or not
-        if len(posts_link) == 0:
+        print("len posts link", len_links,len(posts_link))
+        if len(posts_link) == len_links - 2:
             # if there is no more link to crawl
             break
     

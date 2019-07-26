@@ -39,6 +39,7 @@ class PostInfo:
             'location_lat':                     None,
             "source":                           "system",
             "post_comments":                    [],
+            "cmt_rep":                          [],
             
 
             'address':                          None,

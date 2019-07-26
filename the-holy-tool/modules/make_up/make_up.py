@@ -96,7 +96,6 @@ def make_up(post_info):
     post_info.set_info("attr_legal",            normalize_legal(post_info.get_info("attr_legal")))
 
 
-
 def get_attributes(post_info):
     tmp = get_from_api(post_info.get_info('message'))
 

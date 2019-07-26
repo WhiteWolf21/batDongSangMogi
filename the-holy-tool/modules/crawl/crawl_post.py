@@ -20,7 +20,7 @@ re_group_post_id = r"groups\/(.+)\/permalink\/(.+)\/"   #regex string to find th
 re_comm_user_id  = r"id=(.+)"
 
 
-def crawl_post(signin_driver, links):
+def crawl_post(signin_driver, links,len_links):
     """Crawl post and its releavant information
     Additionally, crawl_post() removes each link in parameter links after crawling it
 
@@ -43,8 +43,8 @@ def crawl_post(signin_driver, links):
     N_max_post_each_acc = settings.MAX_POST_EACH    
     n_max = 0
 
-
-    while len(links) > 0:
+    while len(links) > len_links - 2:
+        print("len links", len_links,len(links))
         sleep(random_time(5, 8))
 
         if n_max == N_max_post_each_acc:
@@ -459,12 +459,26 @@ def crawl_post(signin_driver, links):
 re_datetime = r"(\d{1,2})\/(\d{1,2})\/(\d{1,2}),\s(\d{1,2}):(\d{1,2})\s(AM|PM)"
 
 def get_datetime(datetime_str):
-    result = findall(re_datetime, datetime_str)
-    if result[0][5] == "AM":
-        return datetime(int(result[0][2]) + 2000, int(result[0][0]), int(result[0][1]), int(result[0][3]), int(result[0][4])).isoformat()
-    else:
-        hour = int(result[0][3])
-        if hour != 12:
-            hour += 12
-        return datetime(int(result[0][2]) + 2000, int(result[0][0]), int(result[0][1]), hour, int(result[0][4])).isoformat()
+    if datetime_str!='':
+        split_datetime = datetime_str.split(' ')
+        split_time = split_datetime[1].split(':')
+        date_ = split_datetime[0].split('/')
+        year = date_[2].split(',')[0]
+        if int(date_[0]) < 10:
+            date_[0] = '0' + date_[0]
+        if int(year) < 2000:
+            year = '20' + year + ","
+        if datetime_str.split(' ')[-1]=='PM':
+            # split_time = split_datetime[1].split(':')
+            # datetime_str = split_datetime[0] + " " + str(int(split_time[0])+12) + \
+            #                 ":" + split_time[1]
+            datetime_str = date_[0] + "/" + date_[1] + "/" + year + \
+                    " " + str(int(split_time[0])+12) + \
+                            ":" + split_time[1]            
+        else:
+            # datetime_str = " ".join(split_datetime[:2])
+            datetime_str = date_[0] + "/" + date_[1] + "/" + year + \
+                    " " + ":".join(split_time[:2])
+        print(datetime_str)
+        return datetime.strptime(datetime_str, '%d/%m/%Y %H:%M')
 
