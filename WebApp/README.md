@@ -13,6 +13,10 @@ WebApp Crawling là một trang mạng giúp người môi giới bất động 
 
         npm install
 
+- Tiếp đến, truy cập file package.json để kiểm tra các thư viện mà WebApp Crawling đang sử dụng để tải về. Ví dụ, trong file package.json có ghi express thì express đang được trang mạng sử dụng và cách cài đặt như sau:
+
+        npm install express
+
 - Cuối cùng, sau khi đã cài đặt xong tất cả thư viện thì bạn có thể cài thêm nodemon để có thể cập nhật server liên tục (hoặc chỉ dùng node cũng không sao)
 
         npm install nodemon
