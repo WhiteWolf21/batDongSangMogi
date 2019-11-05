@@ -12,7 +12,7 @@
     "express": "^4.13.4",
     "express-handlebars": "^3.1.0",
     "fs": "0.0.1-security",
-    "mongoose": "^4.13.19",
+    "mongoose": "^5.7.5",
     "morgan": "^1.6.1",
     "node-local-tunnel": "^0.1.8",
     "serve-favicon": "^2.3.2",
