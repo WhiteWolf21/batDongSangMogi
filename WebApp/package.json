@@ -13,7 +13,7 @@
     "express-handlebars": "^3.1.0",
     "fs": "0.0.1-security",
     "mongoose": "^4.13.19",
-    "morgan": "^1.6.1",
+    "morgan": "^1.9.1",
     "node-local-tunnel": "^0.1.8",
     "serve-favicon": "^2.3.2",
     "tunnel-ssh": "^4.1.4",
