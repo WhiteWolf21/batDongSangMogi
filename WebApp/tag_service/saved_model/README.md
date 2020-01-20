@@ -1,1 +1,0 @@
-Put your trained and exported model along with corresponding word and character tokenizer here.
