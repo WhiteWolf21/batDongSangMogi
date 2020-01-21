@@ -3,7 +3,8 @@ var router = express.Router();
 var mongoose = require('mongoose');
 var tunnel = require('tunnel-ssh');
 const utf8 = require('utf8');
-mongoose.connect('localhost:27017/demo2');
+mongoose.connect('mongodb://localhost:27017/file');
+// mongoose.connect('localhost:27017/demo2');
 //mongoose.connect('localhost:27017/tutorial');
 const api_helper = require('../api/api_helper')
 
@@ -43,16 +44,16 @@ var dbs = mongoose.connection;
 
 var Schema = mongoose.Schema;
 
-var file3 = new Schema({
+var file = new Schema({
   title: {type: String, required: true},
   content: String,
   author: String
-}, {collection: 'file3'});
+}, {collection: 'file'});
 
 var dbSchema = new Schema({}, {strict: false});
-var db = mongoose.model('db', dbSchema, 'file3');
+var db = mongoose.model('db', dbSchema, 'file');
 
-var File3 = mongoose.model('File3', file3);
+var File = mongoose.model('File', file);
 
 // function findAllMembersCursor() {
 //     return db.find().cursor();
