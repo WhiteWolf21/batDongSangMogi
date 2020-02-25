@@ -3,7 +3,9 @@ var router = express.Router();
 var mongoose = require('mongoose');
 var tunnel = require('tunnel-ssh');
 const utf8 = require('utf8');
-mongoose.connect('mongodb://localhost:27017/file');
+process.env.MONGODB_URI
+mongoose.connect(process.env.MONGODB_URI);
+// mongoose.connect('mongodb://localhost:27017/local');
 // mongoose.connect('localhost:27017/demo2');
 //mongoose.connect('localhost:27017/tutorial');
 const api_helper = require('../api/api_helper')
@@ -70,7 +72,7 @@ var File = mongoose.model('File', file);
 // }
 
 /* GET home page. */
-router.get('/map', function(req, res, next) { 
+router.get('/', function(req, res, next) { 
   // if (req != undefined){  
   var price = req.query.price;
   if (req.query.textsrc != undefined && req.query.textsrc != ''){
@@ -86,6 +88,7 @@ router.get('/map', function(req, res, next) {
         var type_tb;
         var floor_tb;
         var room_tb;
+        var street_tb;
         for (var i = 0; i < body[0].tags.length; i++){
           if (body[0].tags[i].type == 'addr_district'){
             district_tb = body[0].tags[i].content.toLowerCase();
@@ -115,8 +118,8 @@ router.get('/map', function(req, res, next) {
           price_tb = parseInt(price_tb);
            db.find({attr_addr_district:new RegExp(district_tb, 'i'), attr_addr_street:new RegExp(street_tb, 'i'),
             attr_realestate_type:new RegExp(type_tb, 'i')})
-            .then(function(doc) {
-            res.render('test', {items: doc,textsrc: text, district: 'Quận', type: 'Loại', price: 'Giá'});
+            .limit(1000).then(function(doc) {
+            res.render('test', {items: JSON.stringify(doc).replace(/(\\n)+/g, ""),textsrc: text, district: 'Quận', type: 'Loại', price: 'Giá'});
            });
         }
         else{
@@ -124,8 +127,8 @@ router.get('/map', function(req, res, next) {
           price_tb = parseInt(price_tb);
           db.find({attr_addr_district:new RegExp(district_tb, 'i'), attr_price_min:{$lte:price_tb},
             attr_realestate_type:new RegExp(type_tb, 'i'), attr_addr_street:new RegExp(street_tb, 'i')})
-          .then(function(doc) {
-              res.render('test', {items: doc,textsrc: text, district: 'Quận', type: 'Loại', price: price_tb});
+            .limit(1000).then(function(doc) {
+              res.render('test', {items: JSON.stringify(doc).replace(/(\\n)+/g, ""),textsrc: text, district: 'Quận', type: 'Loại', price: price_tb});
              });
         }
     })
@@ -141,20 +144,22 @@ router.get('/map', function(req, res, next) {
   }
   else 
   if (price == undefined || price == ''){
-    console.log(1)
+    console.log(1);
     if (req.query.district == 'quận 1')
     {
       db.find({attr_addr_district:'quận 1',
     attr_realestate_type:new RegExp(req.query.type, 'i')})
-       .then(function(doc) {
-         res.render('test', {items: doc,textsrc: 'tìm kiếm', district: req.query.district, type: req.query.type, price: 'Chọn Giá'});
+    .limit(1000).then(function(doc) {
+         res.render('test', {items: JSON.stringify(doc).replace(/(\\n)+/g, ""),textsrc: 'tìm kiếm', district: req.query.district, type: req.query.type, price: 'Chọn Giá'});
        });
     }
     else{
     db.find({attr_addr_district:new RegExp(req.query.district, 'i'),
     attr_realestate_type:new RegExp(req.query.type, 'i') })
-       .then(function(doc) {
-         res.render('test', {items: doc,textsrc: 'tìm kiếm', district: req.query.district, type: req.query.type, price: 'Chọn Giá'});
+    .limit(1000).then(function(doc) {
+        var test1 = JSON.stringify(doc);
+        // var final1 = JSON.parse(test1.replace(/(\\n)+/g, ""));
+         res.render('test', {items: JSON.stringify(doc).replace(/(\\n)+/g, ""),textsrc: 'tìm kiếm', district: req.query.district, type: req.query.type, price: 'Chọn Giá'});
        });
      }
   }
@@ -167,15 +172,15 @@ router.get('/map', function(req, res, next) {
     {
       db.find({attr_addr_district:'quận 1',
     attr_realestate_type:new RegExp(req.query.type, 'i'), attr_price_min:{$lte:price}})
-       .then(function(doc) {
-         res.render('test', {items: doc,textsrc: 'tìm kiếm', district: req.query.district, type: req.query.type, price: 'Chọn Giá'});
+    .limit(1000).then(function(doc) {
+         res.render('test', {items: JSON.stringify(doc).replace(/(\\n)+/g, ""),textsrc: 'tìm kiếm', district: req.query.district, type: req.query.type, price: 'Chọn Giá'});
        });
     }
     else{
     db.find({attr_addr_district:new RegExp(req.query.district, 'i'),
       attr_realestate_type:new RegExp(req.query.type, 'i'), attr_price_min:{$lte:price}})
-         .then(function(doc) {
-           res.render('test', {items: doc, textsrc: 'tìm kiếm', district: req.query.district, type: req.query.type, price: price});
+      .limit(1000).then(function(doc) {
+           res.render('test', {items: JSON.stringify(doc).replace(/(\\n)+/g, ""), textsrc: 'tìm kiếm', district: req.query.district, type: req.query.type, price: price});
          });
        }
    }
@@ -197,7 +202,7 @@ router.get('/chart', function(req, res, next) {
 });
 
 /* GET data table page. */
-router.get('/', function(req, res, next) {
+router.get('/datatable', function(req, res, next) {
   db.find()
       .then(function(doc) {
         //console.log(doc.toString());

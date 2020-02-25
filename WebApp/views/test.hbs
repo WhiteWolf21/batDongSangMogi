@@ -1,5 +1,4 @@
 <script type="text/javascript">
-
 /*var maptimes = {
   "type": "FeatureCollection",
   "features": [
@@ -73,16 +72,34 @@
 
 var dataSet = [];
 var i = 0;
-
+var dataList = {{{ items }}};
+/*
+dataList.some(function(final1,idx) {
+    if (final1["location_lng"] != "" && final1["location_lat"])
+      dataSet.push([1+i++,final1["attr_addr_street"], final1["attr_addr_ward"],final1["attr_addr_district"],final1["attr_addr_city"],final1["attr_price"],final1["attr_realestate_type"],final1["attr_price_min"], final1["location_lng"], final1["location_lat"], String(final1["dataBank"]),String(final1["dataHospital"]),String(final1["dataSchool"]),String(final1["dataBus_Stations"]),String(final1["dataMarket"]),String(final1["dataSupermarket"]) ]);
+      if (i == 1000)
+        return true;
+});
+*/
+/*
+dataList = JSON.parse(dataList);
+for (var final1 in dataList) {
+    //var test1 = JSON.stringify(element);
+    //var final1 = JSON.parse(test1);
+    dataSet.push([i+1,final1["attr_addr_street"], final1["attr_addr_ward"],final1["attr_addr_district"],final1["attr_addr_city"],final1["attr_price"],final1["attr_realestate_type"],final1["attr_price_min"], final1["location_lng"], final1["location_lat"], final1["dataBank"],final1["dataHospital"],final1["dataSchool"],final1["dataBus_Stations"],final1["dataMarket"], final1["dataSupermarket"] ]);
+    i++;
+};
+*/
+dataList.forEach(function(final1) {
+    if (final1["location_lng"] != "" && final1["location_lat"])
+      dataSet.push([1+i++,final1["attr_addr_street"], final1["attr_addr_ward"],final1["attr_addr_district"],final1["attr_addr_city"],final1["attr_price"],final1["attr_realestate_type"],final1["attr_price_min"], final1["location_lng"], final1["location_lat"], String(final1["dataBank"]),String(final1["dataHospital"]),String(final1["dataSchool"]),String(final1["dataBus_Stations"]),String(final1["dataMarket"]),String(final1["dataSupermarket"]) ]);
+});
+/*
 {{# each items }}
-    {{# each this }}
-          if("{{ this.score }}" != ""){
-            //dataSet = dataSet + '[' + '"' +  (i+1) + '"' + "," + '"' +  "{{ this.group_id.[1] }}" + '"' + '],';
-            dataSet.push([i+1,"{{ this.attr_addr_street }}", "{{ this.attr_addr_ward }}","{{ this.attr_addr_district }}","{{ this.attr_addr_city }}","{{ this.attr_price }}","{{ this.attr_realestate_type }}","{{ this.attr_price_min }}", "{{ this.location_lng }}", "{{ this.location_lat }}", `{{{this.dataBank}}}`,`{{{this.dataHospital}}}`,`{{{this.dataSchool}}}`,`{{{this.dataBus_Stations}}}`,`{{{this.dataMarket}}}`, `{{{this.dataSupermarket}}}` ]);
-            i++;
-          }
-  {{/each}}
+            if ("{{ this.location_lng }}" != "" && "{{ this.location_lat }}" != "")
+              dataSet.push([(1+i++),"{{ this.attr_addr_street }}", "{{ this.attr_addr_ward }}","{{ this.attr_addr_district }}","{{ this.attr_addr_city }}","{{ this.attr_price }}","{{ this.attr_realestate_type }}","{{ this.attr_price_min }}", "{{ this.location_lng }}", "{{ this.location_lat }}", "{{{this.dataBank}}}","{{{this.dataHospital}}}","{{{this.dataSchool}}}","{{{this.dataBus_Stations}}}","{{{this.dataMarket}}}", "{{{this.dataSupermarket}}}" ]);
 {{/each}}
+*/
 console.log(dataSet);
 // function checkedbutton(){
 //   document.getElementsByClassName("num_max")[0].innerHTML = i;
@@ -168,7 +185,7 @@ function Myfunction(){
               }
             }
             geojson['features'].push(newFeature);
-
+            
             var banks = dataSet[j][10].split(',');
 
             var subArray = [];
@@ -922,7 +939,7 @@ console.log(spmarkettimes);
     </div>
     <div class="btn-pref btn-group btn-group-justified btn-group-lg" role="group" aria-label="...">
         <div class="btn-group btn-size" role="group">
-            <a id="stars" class="btn btn-primary" href="/map"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <a id="stars" class="btn btn-primary" href="/"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>
                 <div class="hidden-xs">Bản Đồ Phổ Biến</div>
             </a>
         </div>
@@ -937,7 +954,7 @@ console.log(spmarkettimes);
                 <div class="hidden-xs">Danh Sách Người Dùng</div>
             </a>
           -->
-           <a id="following" class="btn btn-default" href="/" ><span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+           <a id="following" class="btn btn-default" href="/datatable" ><span class="glyphicon glyphicon-user" aria-hidden="true"></span>
                 <div class="hidden-xs">Danh Sách Người Dùng</div>
             </a>
         </div>
